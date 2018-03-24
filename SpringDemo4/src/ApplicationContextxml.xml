@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- scope="prototype" 不会执行 destroy 函数 但会执行初始化函数  并且回事不同的对象初始化-->
+   	<bean id="user" class="entity.User" 
+   		init-method="init" destroy-method="destroy">
+   		<property name="id" value="1" />
+   		<property name="name" value="zs"/>
+   	</bean>
+
+</beans>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   	<bean id="dao" class="dao.impl.UserDaoImpl"></bean>
+   	<bean id="userdao2" class="dao.impl.UserDaoImpl2"></bean>
+   	
+   	<!-- <bean id="userservice" class="service.impl.UserServiceImpl" 
+   	autowire="default">
+   	</bean> -->
+   	
+   	<!--  只能有一个  dao.impl.UserDao-->
+   <!-- 	<bean id="userservice" class="service.impl.UserServiceImpl" 
+   	autowire="byType">
+   	</bean> -->
+   	
+ 
+   	<bean id="userservice" class="service.impl.UserServiceImpl" 
+   	autowire="byName">
+   	</bean>
+
+</beans>

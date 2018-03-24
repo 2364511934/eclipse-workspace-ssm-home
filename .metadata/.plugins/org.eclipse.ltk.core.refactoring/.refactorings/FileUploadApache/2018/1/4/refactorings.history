@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FileUploadApache/WebContent/uploadfileoriginal.jsp&apos; to &apos;uploadfileapache.jsp&apos;" description="Rename resource &apos;uploadfileoriginal.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/uploadfileoriginal.jsp" name="uploadfileapache.jsp" stamp="1517054384988" updateReferences="true"/>
+</session>

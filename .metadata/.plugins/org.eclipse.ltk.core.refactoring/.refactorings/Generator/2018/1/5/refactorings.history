@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;lib&apos;&#x0D;&#x0A;- Original project: &apos;Generator&apos;&#x0D;&#x0A;- Destination element: &apos;lib&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     mybatis-3.2.7.jar&#x0D;&#x0A;     mysql-connector-java-5.1.7-bin.jar&#x0D;&#x0A;     mybatis-generator-core-1.3.2.jar" description="Copy files" element1="lib/mybatis-3.2.7.jar" element2="lib/mysql-connector-java-5.1.7-bin.jar" element3="lib/mybatis-generator-core-1.3.2.jar" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1517328068581" target="/Generator2/lib" units="0" version="1.0"/>
+</session>

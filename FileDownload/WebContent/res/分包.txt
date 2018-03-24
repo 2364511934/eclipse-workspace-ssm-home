@@ -1,0 +1,10 @@
+root:rootroot
+yhj:123456
+
+
+ 
+Oracle Database 10g Release 2 (10.2.0.1.0) Enterprise/Standard Edition for Linux x86-64
+http://download.oracle.com/otn/linux/oracle10g/10201/10201_database_linux_x86_64.cpio.gz
+http://download.oracle.com/otn/linux/oracle10g/10201/10201_client_linux_x86_64.cpio.gz
+http://download.oracle.com/otn/linux/oracle10g/10201/10201_clusterware_linux_x86_64.cpio.gz
+http://download.oracle.com/otn/linux/oracle10g/10201/10201_gateways_linux_x86_64.cpio.gz

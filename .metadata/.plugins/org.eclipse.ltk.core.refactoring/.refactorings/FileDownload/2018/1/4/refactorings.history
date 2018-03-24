@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FileDownload/WebContent/res/RHEL4.txt&apos; to &apos;分包.txt&apos;" description="Rename resource &apos;RHEL4.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/res/RHEL4.txt" name="分包.txt" stamp="1517059222768" updateReferences="true"/>
+</session>

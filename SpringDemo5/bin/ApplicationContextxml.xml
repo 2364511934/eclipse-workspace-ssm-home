@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+   	<bean id="user" class="entity.User">
+   		<property name="id" value="1" />
+   		<property name="name" value="zs"/>
+   		<property name="data">
+   			<array>
+   				<value>array1</value>
+   				<value>array2</value>
+   				<value>array3</value>
+   			</array>
+   		</property>
+   		
+   		<property name="listData">
+   			<list>
+   				<value>list1</value>
+   				<value>list2</value>
+   				<value>list3</value>
+   			</list>
+   		</property>
+   		
+   		<property name="setData">
+   			<set>
+   				<value>set1</value>
+   				<value>set2</value>
+   				<value>set2</value>
+   			</set>
+   		</property>
+   		
+   		<property name="mapData">
+   			<map>
+   				<entry>
+   					<key>
+   						<value>mapKey1</value>
+   					</key>
+   					<value>mapValue1</value>
+   				</entry>
+   				<entry>
+   					<key>
+   						<value>mapKey2</value>
+   					</key>
+   					<value>mapValue2</value>
+   				</entry>
+   				<entry>
+   					<key>
+   						<value>mapKey3</value>
+   					</key>
+   					<value>mapValue3</value>
+   				</entry>
+   			</map>
+   		</property>
+   		
+   		<property name="pros">
+   			<props>
+   				<prop key="prosKey1">prosValue1</prop>
+   				<prop key="prosKey2">prosValue2</prop>
+   				<prop key="prosKey3">prosValue3</prop>
+   			</props>
+   		</property>
+   	</bean>
+
+</beans>

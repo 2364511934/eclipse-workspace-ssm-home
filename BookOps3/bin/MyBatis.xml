@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<properties resource="jdbc.properties"></properties>
+	<settings>
+		<!-- 延迟加载全局开关 -->
+		<setting name="lazyLoadingEnabled" value="true"/>
+		<!-- 3.4.1以上为false,否则为true  我们的版本是3.2.7 所以此项可以不用设置 -->
+		<setting name="aggressiveLazyLoading" value="false"/>
+		<!-- 此配置会影响二级缓存 -->
+		<setting name="cacheEnabled" value="true"/>
+	</settings>
+	
+	<typeAliases>
+		<package name="entity" />
+	</typeAliases>
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC"></transactionManager>
+			<dataSource type="POOLED">
+				<property name="driver" value="${db.driver}" />
+				<property name="url" value="${db.url}" />
+				<property name="username" value="${db.user}" />
+				<property name="password" value="${db.pwd}" />
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<mappers>
+		<package name="mapper" />
+	</mappers>
+</configuration>
